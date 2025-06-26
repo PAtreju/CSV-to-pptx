@@ -27,12 +27,11 @@ if __name__ == "__main__":
     products = read_csv(filename)
     generate_pptx(template_filename_pptx, products, output_pptx)
 
-# if __name__ == "__main__":
-    filename = "example_csv.csv"
-    template_filename_pdf = "templates/pdf_template.html"
-    output_pdf = "generated_pdf.pdf"
-
-    products = read_csv(filename)
-    # wkhtmltopdf_path = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
-    generate_pdf(template_filename_pdf, products, output_pdf) # add wkhtmltopdf_path as an argument if needed
+    # filename = "example_csv.csv"
+    # template_filename_pdf = "templates/pdf_template.html"
+    # output_pdf = "generated_pdf.pdf"
+    #
+    # products = read_csv(filename)
+    # # wkhtmltopdf_path = r"C:\Program Files\wkhtmltopdf\bin\wkhtmltopdf.exe"
+    # generate_pdf(template_filename_pdf, products, output_pdf) # add wkhtmltopdf_path as an argument if needed
 
